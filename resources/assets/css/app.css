@@ -1,0 +1,14 @@
+#header {
+  background-color: antiquewhite;
+  display: inline-block;
+}
+#header #title {
+  margin-left: 30%;
+}
+#header #coffee_img {
+  margin-left: 50px;
+}
+#header #coffee_img img {
+  height: 95%;
+  width: auto;
+}
