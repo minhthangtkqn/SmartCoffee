@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="../resources/assets/css/app.css">
+    @include('template.style')
 </head>
 
 <body>
@@ -20,9 +19,11 @@
     @include('template.header')
 </header>
 
-<div id="container">
+<div class="nav-md">
     @yield('content')
 </div>
+
+@yield('scripts')
 
 <footer class="footer-distributed">
     @include('template.footer')
